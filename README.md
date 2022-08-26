@@ -1,5 +1,5 @@
 
-[APU(아퍼)운영사](https://apuo.netlify.app/): allt B2B 운영사와 공급사 관련 HTML템플릿 제공 프로젝트
+HTML템플릿 제공 프로젝트
 
 ## Specs
 + [Svelte](https://svelte.dev/)
