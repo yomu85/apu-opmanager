@@ -1,0 +1,145 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 200,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "budgetYearMonth",
+    "header": "예산년월",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true,
+    "isText": true
+  },
+  {
+    "binding": "buyerId",
+    "header": "고객사ID",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "buyerCode",
+    "header": "고객사코드",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "buyerName",
+    "header": "고객사명",
+    "width": 500,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "divisionId",
+    "header": "사업부ID",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "divisionCode",
+    "header": "사업부코드",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "divisionName",
+    "header": "사업부명",
+    "width": 500,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "deptId",
+    "header": "부서ID",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "deptCode",
+    "header": "부서코드",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "deptName",
+    "header": "부서명",
+    "width": 500,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "accountId",
+    "header": "계정ID",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "accountCode",
+    "header": "계정코드",
+    "width": 200,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "accountName",
+    "header": "계정명",
+    "width": 500,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "currency",
+    "header": "통화",
+    "width": 200,
+    "cellType": "select-simple",
+    "dataMap": "AED,AFN,ALL,AMD,ANG,AOA,ARS,AUD,AWG,AZN,BAM,BBD,BDT,BGN,BHD,BMD,BND,BOB,BRL,BSD,BTN,BWP,BYR,BZD,CAD,CDF,CHF,CLP,CNY,COP,CRC,CSD,CUC,CUP,CVE,CZK,DJF,DKK,DOP,DZD,EEK,EGP,ERN,ETB,EUR,FJD,FKP,GBP,GEL,GIP,GMD,GNF,GTQ,GYD,HKD,HNL,HRK,HTG,HUF,IDR,ILS,INR,IQD,IRR,ISK,JMD,JOD,JPY,KES,KGS,KHR,KMF,KPW,KRW,KWD,KYD,KZT,LAK,LBP,LKR,LRD,LSL,LTL,LVL,LYD,MAD,MDL,MGA,MKD,MMK,MNT,MOP,MRO,MUR,MVR,MWK,MXN,MYR,MZN,NAD,NGN,NIO,NOK,NPR,NZD,OMR,PAB,PEN,PGK,PHP,PKR,PLN,PYG,QAR,ROL,RUB,RWF,SAR,SBD,SCR,SDG,SEK,SGD,SHP,SLL,SOS,SRD,STD,SYP,SZL,THB,TJS,TMM,TND,TOP,TRY,TTD,TWD,TZS,UAH,UGX,USD,UYU,UZS,VEB,VND,VUV,WST,XAF,XAG,XAU,XCD,XDR,XOF,XPD,XPF,XPT,XTS,XXX,YER,ZAR,ZMK,ZWD",
+    "isReadOnly": true
+  },
+  {
+    "binding": "transferedAmount",
+    "header": "이월예산",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "transferedReason",
+    "header": "이월사유",
+    "width": 1000,
+    "isReadOnly": true
+  },
+  {
+    "binding": "budgetAmount",
+    "header": "예산금액",
+    "width": 500,
+    "isReadOnly": true,
+    "required": true
+  },
+  {
+    "binding": "exhaustAmount",
+    "header": "사용금액",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "additionalAmount",
+    "header": "추가예산",
+    "width": 500
+  },
+  {
+    "binding": "balance",
+    "header": "잔액",
+    "width": 500,
+    "isReadOnly": true
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 200,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "imgExist",
+    "header": "이미지",
+    "width": 500,
+    "isReadOnly": true,
+    "blocked": true,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemCode",
+    "header": "상품코드",
+    "width": 200,
+    "isReadOnly": true,
+    "blocked": true,
+    "isText": true
+  },
+  {
+    "binding": "categoryGroupName",
+    "header": "그룹",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "categoryGroupId",
+    "header": "그룹ID",
+    "width": 200,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass1Name",
+    "header": "대분류",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass1",
+    "header": "대분류코드",
+    "width": 200,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass2Name",
+    "header": "중분류 ",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass2",
+    "header": "중분류코드",
+    "width": 200,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass3Name",
+    "header": "소분류",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass3",
+    "header": "소분류코드",
+    "width": 200,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass4Name",
+    "header": "세분류",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemClass4",
+    "header": "세분류코드",
+    "width": 200,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemDesc",
+    "header": "상품명",
+    "width": 1000
+  },
+  {
+    "binding": "itemSpec",
+    "header": "규격",
+    "width": 1000
+  },
+  {
+    "binding": "makerId",
+    "header": "제조사ID",
+    "width": 200,
+    "cellType": "click"
+  },
+  {
+    "binding": "makerName",
+    "header": "제조사명",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "originCountryCode",
+    "header": "원산지",
+    "cellType": "select-simple",
+    "dataMap": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,XX,YE,YT,Z1,ZA,ZM,ZW",
+    "width": 200
+  },
+  {
+    "binding": "unitMeasure",
+    "header": "단위",
+    "cellType": "select-simple",
+    "dataMap" : "갑,권,대,말,매,병,본,봉,연,장,조,켤레,타,통,포,필,BOX,CAN,DR,DZ,EA,G,KG,L,M,ML,PACK,PAL,PL,PS,ROLL,SET,SG,TON,YD",
+    "width": 200
+  },
+  {
+    "binding": "stdStatus",
+    "header": "표준화여부",
+    "width": 500,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "STANDARDIZATION",
+        "text": "표준화"
+      },
+      {
+        "source": "NOT_STANDARDIZATION",
+        "text": "비표준화"
+      }
+    ]
+  },
+  {
+    "binding": "cmsCtrlUserId",
+    "header": "Catalog담당",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "sgCtrlUserId",
+    "header": "Sourcing담당",
+    "width": 500,
+    "cellType": "click"
+  },
+  {
+    "binding": "itemStatus",
+    "header": "상품상태",
+    "width": 200,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "USE",
+        "text": "사용"
+      },
+      {
+        "source": "DELETION",
+        "text": "삭제"
+      },
+      {
+        "source": "DISCONTINUED",
+        "text": "단종"
+      },
+      {
+        "source": "TEMP_SOLDOUT",
+        "text": "일시품절"
+      }
+    ]
+  },
+  {
+    "binding": "itemModType",
+    "header": "상품상태변경유형",
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "DISCONTINUED",
+        "text": "단종"
+      },
+      {
+        "source": "IMPORT_INTERRUPTION",
+        "text": "수입중단"
+      },
+      {
+        "source": "ITEMS_DUPLICATED",
+        "text": "품목중복생성"
+      },
+      {
+        "source": "ETC",
+        "text": "기타"
+      }
+    ],
+    "width": 500
+  },
+  {
+    "binding": "itemModReason",
+    "header": "상품상태변경사유",
+    "width": 500
+  },
+  {
+    "binding": "notStdRemark",
+    "header": "미표준화사유",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "itemExternalImgUrl",
+    "header": "상품외부이미지URL",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "modUserId",
+    "header": "최종수정자",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "modDate",
+    "header": "최종수정일시",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "sgNo",
+    "header": "소싱그룹ID",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "delStatus",
+    "header": "삭제여부",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "erpIfSendStatus",
+    "header": "ERPInterface전송여부",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "erpItemStatus",
+    "header": "ERP상품상태",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "erpUseStatus",
+    "header": "ERP전용상품여부",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "regType",
+    "header": "상품생성타입",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "notStdType",
+    "header": "미표준화타입",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "regUserId",
+    "header": "등록자ID",
+    "width": 200,
+    "isReadOnly": true
+  }
+]

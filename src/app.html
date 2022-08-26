@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko" class="opmanager webkit chrome win js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="_csrf" content="1799f846-c6f6-4e84-9724-213c5ed669f7">
+		<meta name="_csrf_header" content="X-CSRF-TOKEN">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="/content/images/common/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/content/opmanager/css/ui-lightness/jquery-ui-1.10.3.custom.min.css">
+		<link rel="stylesheet" type="text/css" href="/content/opmanager/css/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/content/opmanager/css/opmanager.css">
+		<link rel="stylesheet" type="text/css" href=" /content/opmanager/css/overwrite.css">
+		<link href="https://cdn.grapecity.com/wijmo/5.latest/styles/wijmo.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href=" /content/opmanager/css/wijmo-reset.css">
+		<link rel="stylesheet" type="text/css" href="/content/opmanager/css/opmanager_print.css" media="print">
+		<link rel="stylesheet" type="text/css" href="/content/modules/jquery/jstree/dist/themes/default/style.min.css">
+		<script type="text/javascript">var OP_CONTEXT_PATH = '';</script>
+		<script type="text/javascript">var OP_LANGUAGE = 'ko';</script>
+		<script type="text/javascript">var OP_MANAGER_TIMEOUT = '200';</script>
+		<script type="text/javascript">var OP_MANAGER_TIMEOUT_TYPE = 'manager';</script>
+		<script type="text/javascript" src="/content/modules/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="/content/modules/jquery/jquery.cookie.js"></script>
+		<script type="text/javascript" src="/content/modules/jquery/jquery-ui-1.10.4.custom.js"></script>
+		<script type="text/javascript" src="/content/modules/spin.min.js"></script>
+		<style type="text/css"></style>
+		<script type="text/javascript" src="/content/modules/op.common.js"></script>
+		<script type="text/javascript" src="/content/modules/op.link.js" charset="utf-8"></script>
+		<script type="text/javascript" src="/content/modules/op.main.js"></script>
+		<script type="text/javascript" src="/content/modules/op.validator.js"></script>
+		<script type="text/javascript" src="/content/modules/op.file.js"></script>
+		<script type="text/javascript" src="/content/modules/op.shop.js"></script>
+		<script type="text/javascript" src="/content/modules/op.manager.js"></script>
+		<script type="text/javascript" src="/content/modules/op.manager.order.js"></script>
+		<script type="text/javascript" src="/content/modules/css_browser_selector.js"></script>
+		<script type="text/javascript" src="/content/modules/jquery/jstree/dist/jstree.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+			integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+			crossorigin="anonymous"></script>
+		%sveltekit.head%
+	</head>
+	<body>
+		%sveltekit.body%
+
+		<script>
+			function Lnb() {
+				var menu_a = $('.menu > a');
+
+				menu_a.click(function (e) {
+					e.preventDefault();
+					if (!$(this).hasClass('on')) {
+						$(this).addClass('on').next().stop(true, true).slideDown('800');
+					} else {
+						$(this).removeClass('on');
+						$(this).next().stop(true, true).slideUp('800');
+					}
+				});
+			}
+			Lnb();
+			// (function ($) {
+			// 	$(function () {
+			// 		$('#transferModal').modal()
+			// 	})
+			// })(jQuery);
+		</script>
+	</body>
+</html>

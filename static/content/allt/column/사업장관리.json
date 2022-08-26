@@ -1,0 +1,44 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 60,
+    "cellType": "checkbox"
+  },
+  {
+    "binding": "buyerId",
+    "header": "고객사ID",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerCode",
+    "header": "고객사코드",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerName",
+    "header": "고객사",
+    "width": 300,
+    "isReadOnly": true
+  },
+  {
+    "binding": "divisionId",
+    "header": "사업부ID",
+    "width": 100,
+    "isReadOnly": false
+  },
+  {
+    "binding": "divisionCode",
+    "header": "사업부코드",
+    "width": 100,
+    "isReadOnly": false
+  },
+  {
+    "binding": "divisionName",
+    "header": "사업부명",
+    "width": 300,
+    "isReadOnly": false
+  }
+]

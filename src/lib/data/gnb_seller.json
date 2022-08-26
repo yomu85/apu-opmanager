@@ -1,0 +1,30 @@
+[
+  {
+    "name": "납품관리",
+    "path": "/invoice",
+    "href": "/invoice/shipstatement/create",
+    "deps2Menus": [
+      {
+        "name": "납품관리",
+        "path": "/invoice/shipstatement",
+        "deps3Menus": [
+          {
+            "name": "납품서 생성/거부",
+            "file": "create",
+            "href": "/invoice/shipstatement/create"
+          },
+          {
+            "name": "납품서 조회/수정",
+            "file": "edit",
+            "href": "/invoice/shipstatement/edit"
+          },
+          {
+            "name": "납품완료 입력/수정",
+            "file": "finish_edit",
+            "href": "/invoice/shipstatement/finish_edit"
+          }
+        ]
+      }
+    ]
+  }
+]

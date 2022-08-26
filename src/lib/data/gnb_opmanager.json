@@ -1,0 +1,55 @@
+[
+  {
+    "name": "주문관리",
+    "path": "/order",
+    "href": "/order/management/item-create",
+    "deps2Menus": [
+      {
+        "name": "주문관리",
+        "path": "/order/management",
+        "deps3Menus": [
+          {
+            "name": "상품조회",
+            "href": "/order/management/item-create"
+          },
+          {
+            "name": "장바구니",
+            "href": "/order/management/item-cart"
+          },
+          {
+            "name": "주문조회(취소)",
+            "href": "/order/management/item-update"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "납품관리",
+    "path": "/op_invoice",
+    "href": "/op_invoice/shipstatement/create",
+    "deps2Menus": [
+      {
+        "name": "납품관리",
+        "path": "/op_invoice/shipstatement",
+        "deps3Menus": [
+          {
+            "name": "납품서 생성",
+            "file": "create",
+            "href": "/op_invoice/shipstatement/create"
+          },
+          {
+            "name": "납품서 조회/수정",
+            "file": "edit",
+            "href": "/op_invoice/shipstatement/edit"
+          },
+          {
+            "name": "납품완료 입력/수정",
+            "file": "finish_edit",
+            "href": "/op_invoice/shipstatement/finish_edit"
+          }
+        ]
+      }
+    ]
+  }
+]

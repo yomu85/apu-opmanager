@@ -1,0 +1,63 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 60,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "buyerId",
+    "header": "고객사ID",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerCode",
+    "header": "고객사코드",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerName",
+    "header": "고객사명",
+    "width": 300,
+    "isReadOnly": true
+  },
+  {
+    "binding": "useStatus",
+    "header": "사용여부",
+    "width": 100,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "USE",
+        "text": "사용"
+      },
+      {
+        "source": "UNUSE",
+        "text": "사용안함"
+      }
+    ],
+    "required": true,
+    "tooltip": "사용/사용안함"
+  },
+  {
+    "binding": "accountId",
+    "header": "계정ID",
+    "width": 100,
+    "required": true
+  },
+  {
+    "binding": "accountCode",
+    "header": "계정코드",
+    "width": 100,
+    "required": true
+  },
+  {
+    "binding": "accountName",
+    "header": "계정명",
+    "width": 300,
+    "required": true
+  }
+]

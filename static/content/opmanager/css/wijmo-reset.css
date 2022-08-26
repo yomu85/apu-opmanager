@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* reset */
+#wijmo-grid-tag {
+  height: calc(100% - 66px) !important;
+}
+.wj-content {
+  display: block;
+  border-color: #DDE1E6;
+  color: #4D5358;
+}
+.wj-flexgrid {
+  margin-top: 8px;
+  height: auto;
+  min-height: auto !important;
+  max-height: none !important;
+  flex: 1;
+}
+
+.wj-cell {
+  font-family: 돋움, Dotum, sans-serif;
+  font-size: 11px;
+  padding: 4px;
+  height: 32px;
+  line-height:24px;
+  color: #4D5358;
+}
+.wj-cell a {
+  text-decoration: underline;
+  color: #0F62FE;
+}
+
+.wj-cell.wj-header {
+  background-color: #F2F4F8;
+  color: #4D5358;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.wj-cell.wj-header,
+.wj-cell {
+  text-align: center;
+}
+.wj-cell.wj-header,
+.wj-cell,
+.wj-cell.wj-frozen-col {
+  border-color: #DDE1E6;
+  letter-spacing: 0;
+}
+
+.wj-cell.wj-alt {
+  background-color: #fff;
+}
+
+.wj-flexgrid .wj-cell label input[type=checkbox] {
+  -webkit-appearance: checkbox;
+  width: 14px;
+  height: 14px;
+}
+
+.wj-cells .wj-cell.wj-state-multi-selected {
+  background-color: #EDF5FF;
+  color: #4D5358;
+}
+.wj-cells .wj-cell.wj-state-selected {
+ background-color: #A6C8FF; 
+ color: #4D5358;
+}

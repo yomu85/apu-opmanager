@@ -1,0 +1,57 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 60,
+    "cellType": "checkbox"
+  },
+  {
+    "binding": "loginId",
+    "header": "사용자명",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerName",
+    "header": "회사명",
+    "width": 200,
+    "isReadOnly": true
+  },
+
+  {
+    "binding": "divisionName",
+    "header": "사업부명",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "deptName",
+    "header": "부서명",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "tel",
+    "header": "전화번호",
+    "width": 150,
+    "isReadOnly": true
+  },
+  {
+    "binding": "mobile",
+    "header": "휴대폰번호",
+    "width": 150,
+    "isReadOnly": true
+  },
+  {
+    "binding": "email",
+    "header": "E-mail",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "positionName",
+    "header": "직급명",
+    "width": 100,
+    "isReadOnly": true
+  }
+]

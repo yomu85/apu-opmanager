@@ -1,0 +1,94 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 60,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "makerId",
+    "header": "제조사ID",
+    "width": 100,
+    "isReadOnly": true,
+    "blocking": true
+  },
+  {
+    "binding": "makerCode",
+    "header": "제조사코드",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "makerName",
+    "header": "제조사명",
+    "width": 200
+  },
+  {
+    "binding": "majorItemTest",
+    "header": "주요취급품목",
+    "width": 200
+  },
+  {
+    "binding": "remark",
+    "header": "비고",
+    "width": 200
+  },
+  {
+    "binding": "useStatus",
+    "header": "사용여부",
+    "width": 100,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "USE",
+        "text": "사용"
+      },
+      {
+        "source": "UNUSE",
+        "text": "사용안함"
+      }
+    ]
+  },
+  {
+    "binding": "delStatus",
+    "header": "상태",
+    "width": 100,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "UNDELETED",
+        "text": "정상"
+      },
+      {
+        "source": "DELETED",
+        "text": "삭제"
+      }
+    ],
+    "isReadOnly": true
+  },
+  {
+    "binding": "modDate",
+    "header": "수정일",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "modUserId",
+    "header": "수정자ID",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "regDate",
+    "header": "등록일",
+    "width": 100,
+    "isReadOnly": true
+  },
+  {
+    "binding": "regUserId",
+    "header": "등록자ID",
+    "width": 100,
+    "isReadOnly": true
+  }
+]

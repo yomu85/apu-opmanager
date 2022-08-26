@@ -1,0 +1,261 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 200,
+    "cellType": "checkbox",
+    "frozen": true
+  },
+  {
+    "binding": "costPriceId",
+    "header": "가격ID",
+    "width": 200,
+    "isReadOnly": true,
+    "blocked": true
+  },
+  {
+    "binding": "itemCode",
+    "header": "상품코드",
+    "width": 200,
+    "isReadOnly": true,
+    "isText": true
+  },
+
+  {
+    "binding": "itemDesc",
+    "header": "상품명",
+    "width": 1000,
+    "isReadOnly": true
+  },
+  {
+    "binding": "vendorId",
+    "header": "공급사ID",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "vendorCode",
+    "header": "공급사코드",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "vendorName",
+    "header": "공급사명",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerId",
+    "header": "고객사ID",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerCode",
+    "header": "고객사코드",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "buyerName",
+    "header": "고객사명",
+    "width": 500,
+    "isReadOnly": true
+  },
+  {
+    "binding": "moqQty",
+    "header": "최소발주수량",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "rvQty",
+    "header": "발주배수량",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "leadTime",
+    "header": "표준납기L/T",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "leadTimeCode",
+    "header": "표준납기Type",
+    "width": 200,
+    "cellType": "select-map",
+    "isReadOnly": true,
+    "dataMap": [
+      {
+        "source": "STANDARD",
+        "text": "표준품"
+      },
+      {
+        "source": "WARE",
+        "text": "제작품"
+      },
+      {
+        "source": "IMPORTS",
+        "text": "수입품"
+      },
+      {
+        "source": "NON-STOCK_SALES",
+        "text": "무재고판매"
+      },
+      {
+        "source": "ETC",
+        "text": "기타"
+      }
+    ]
+  },
+  {
+    "binding": "cur",
+    "header": "통화",
+    "width": 200,
+    "cellType": "select-simple",
+    "dataMap": "AED,AFN,ALL,AMD,ANG,AOA,ARS,AUD,AWG,AZN,BAM,BBD,BDT,BGN,BHD,BMD,BND,BOB,BRL,BSD,BTN,BWP,BYR,BZD,CAD,CDF,CHF,CLP,CNY,COP,CRC,CSD,CUC,CUP,CVE,CZK,DJF,DKK,DOP,DZD,EEK,EGP,ERN,ETB,EUR,FJD,FKP,GBP,GEL,GIP,GMD,GNF,GTQ,GYD,HKD,HNL,HRK,HTG,HUF,IDR,ILS,INR,IQD,IRR,ISK,JMD,JOD,JPY,KES,KGS,KHR,KMF,KPW,KRW,KWD,KYD,KZT,LAK,LBP,LKR,LRD,LSL,LTL,LVL,LYD,MAD,MDL,MGA,MKD,MMK,MNT,MOP,MRO,MUR,MVR,MWK,MXN,MYR,MZN,NAD,NGN,NIO,NOK,NPR,NZD,OMR,PAB,PEN,PGK,PHP,PKR,PLN,PYG,QAR,ROL,RUB,RWF,SAR,SBD,SCR,SDG,SEK,SGD,SHP,SLL,SOS,SRD,STD,SYP,SZL,THB,TJS,TMM,TND,TOP,TRY,TTD,TWD,TZS,UAH,UGX,USD,UYU,UZS,VEB,VND,VUV,WST,XAF,XAG,XAU,XCD,XDR,XOF,XPD,XPF,XPT,XTS,XXX,YER,ZAR,ZMK,ZWD",
+    "isReadOnly": true
+  },
+  {
+    "binding": "contUnitPrice",
+    "header": "계약단가(매입가)",
+    "width": 200
+  },
+  {
+    "binding": "dealCode",
+    "header": "거래유형",
+    "width": 200,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "STOCK",
+        "text": "재고"
+      },
+      {
+        "source": "DIRECTLY",
+        "text": "직납"
+      },
+      {
+        "source": "T_R",
+        "text": "T/R"
+      }
+    ]
+  },
+  {
+    "binding": "taxCode",
+    "header": "과세구분",
+    "width": 200,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "TAX_EXEMPTION",
+        "text": "면세"
+      },
+      {
+        "source": "TAXATION",
+        "text": "과세"
+      },
+      {
+        "source": "ZERO_TAX",
+        "text": "영세"
+      }
+    ],
+    "isReadOnly": true
+  },
+  {
+    "binding": "areaName",
+    "header": "납품지역명",
+    "width": 200,
+    "isReadOnly": true
+  },
+  {
+    "binding": "salesUnitPrice",
+    "header": "판매단가",
+    "width": 200
+  },
+  {
+    "binding": "changeCode",
+    "header": "변경타입",
+    "width": 500,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "PURCHASE_PRICE_INCREASE",
+        "text": "매입가인상"
+      },
+      {
+        "source": "PURCHASE_PRICE_DECREASE",
+        "text": "매입가인하"
+      },
+      {
+        "source": "SALES_PRICE_ERROR",
+        "text": "판가오정책"
+      },
+      {
+        "source": "MP_PURCHASE_MARGIN_INCREASE",
+        "text": "MP매입율향상"
+      },
+      {
+        "source": "CUSTOMER_REQUEST",
+        "text": "고객사요청"
+      },
+      {
+        "source": "ETC",
+        "text": "기타"
+      }
+    ]
+  },
+  {
+    "binding": "changeReason",
+    "header": "변경사유",
+    "width": 500
+  },
+  {
+    "binding": "changeUserId",
+    "header": "최종수정자",
+    "width": 200,
+    "isReadOnly": true,
+    "blocked": true
+  },
+  {
+    "binding": "changeDate",
+    "header": "최종수정일시",
+    "width": 200,
+    "isReadOnly": true,
+    "blocked": true
+  },
+  {
+    "binding": "purchaseStatus",
+    "header": "매입유무",
+    "width": 200,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "YES",
+        "text": "Y"
+      },
+      {
+        "source": "NO",
+        "text": "N"
+      }
+    ]
+  },
+  {
+    "binding": "saleStatus",
+    "header": "판매유무",
+    "width": 200,
+    "cellType": "select-map",
+    "dataMap": [
+      {
+        "source": "YES",
+        "text": "Y"
+      },
+      {
+        "source": "NO",
+        "text": "N"
+      }
+    ]
+  }
+]

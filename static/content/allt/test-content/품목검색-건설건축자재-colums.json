@@ -1,0 +1,131 @@
+[
+  {
+    "binding": "select",
+    "header": "선택",
+    "width": 40,
+    "cellType": "checkbox"
+  },
+  {
+    "binding": "i",
+    "header": "i",
+    "width": 40,
+    "cellType": "select-simple",
+    "dataMap": "0,1,2"
+  },
+  {
+    "binding": "a",
+    "header": "a",
+    "width": 100,
+    "cellType": "calendar"
+  },
+  {
+    "binding": "e",
+    "header": "e",
+    "width": 20,
+    "cellType": "click",
+    "frozen": true
+  },
+  {
+    "binding": "itemCode",
+    "header": "품목코드",
+    "width": 80,
+    "isReadOnly": true
+  },
+  {
+    "binding": "itemName",
+    "header": "품명",
+    "width": 200
+  },
+  {
+    "binding": "itemSpec",
+    "header": "규격",
+    "width": 240
+  },
+  {
+    "binding": "supItemCode",
+    "header": "공급사품목코드",
+    "width": 120
+  },
+  {
+    "binding": "makerName",
+    "header": "제조사",
+    "width": 120
+  },
+  {
+    "binding": "modelNo",
+    "header": "모델번호",
+    "width": 120
+  },
+  {
+    "binding": "originCountryCode",
+    "header": "원산지",
+    "width": 80
+  },
+  {
+    "binding": "unitMeasure",
+    "header": "단위",
+    "width": 40
+  },
+  {
+    "binding": "status",
+    "header": "상태",
+    "width": 80
+  },
+  {
+    "binding": "dealCode",
+    "header": "거래유형",
+    "width": 100,
+    "cellType": "select-simple",
+    "dataMap": "직납,공장,사무실"
+  },
+  {
+    "binding": "vendorName",
+    "header": "공급사",
+    "width": 140
+  },
+  {
+    "binding": "region",
+    "header": "납품지역",
+    "width": 100
+  },
+  {
+    "binding": "contUnitPrice",
+    "header": "매입단가",
+    "width": 100
+  },
+  {
+    "binding": "cur",
+    "header": "통화",
+    "width": 40
+  },
+  {
+    "binding": "moqQty",
+    "header": "최소발주량",
+    "width": 80
+  },
+  {
+    "binding": "rvQty",
+    "header": "발주배수",
+    "width": 80
+  },
+  {
+    "binding": "leadTime",
+    "header": "표준납기(L/T)",
+    "width": 80
+  },
+  {
+    "binding": "taxCode",
+    "header": "과세구분",
+    "width": 80
+  },
+  {
+    "binding": "cmsCtrlUserName",
+    "header": "Catalog담당",
+    "width": 100
+  },
+  {
+    "binding": "sgCtrlUserName",
+    "header": "Sourcing담당",
+    "width": 100
+  }
+]
