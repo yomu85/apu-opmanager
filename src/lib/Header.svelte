@@ -26,7 +26,7 @@
           <a class="btn_logout" href="/invoice/shipstatement/create" on:click={()=>(isOpmanager =! isOpmanager)} title="공급사로 이동">Go공급사</a>
         </li>
         <li class="login">
-          <a class="btn_logout" href="https://apuc.arong.bar/" title="고객사로 이동">Go고객사</a>
+          <a class="btn_logout" href="https://apuc.arong.day/" title="고객사로 이동">Go고객사</a>
         </li>
       </ul>
     </div>
@@ -96,7 +96,7 @@
           <a class="btn_logout" href="/" on:click={()=>(isOpmanager =! isOpmanager)} title="운영사로 이동">Go운영사</a>
         </li>
         <li class="login">
-          <a class="btn_logout" href="https://apuc.arong.bar/" title="고객사로 이동">Go고객사</a>
+          <a class="btn_logout" href="https://apuc.arong.day/" title="고객사로 이동">Go고객사</a>
         </li>
       </ul>
     </div>
